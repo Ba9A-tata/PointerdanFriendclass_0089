@@ -12,4 +12,10 @@ class mahasiswa {
 int main() {
 	mahasiswa mhs{ 1 }; // Obect mhs
 	mhs.showNim(); // Member Acsess Operator
+
+	mahasiswa& refMhs = mhs; //Pointer Reference refMhs
+	refMhs.nim = 2; // Member Acsess Operator
+	mhs.showNim();
+	
+	
 }
