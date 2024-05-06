@@ -10,5 +10,6 @@ class mahasiswa {
 };
 
 int main() {
-
+	mahasiswa mhs{ 1 }; // Obect mhs
+	mhs.showNim(); // Member Acsess Operator
 }
